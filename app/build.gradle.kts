@@ -10,7 +10,7 @@ val keystorePropertiesFile = rootProject.file("keystore.properties")
 if (keystorePropertiesFile.exists()) keystoreProperties.load(keystorePropertiesFile.inputStream())
 
 android { namespace = "com.manus.spaceextractor"; compileSdk = 35
-    defaultConfig { applicationId = "com.manus.spaceextractor"; minSdk = 26; targetSdk = 35; versionCode = 1; versionName = "0.1" }
+    defaultConfig { applicationId = "com.manus.spaceextractor"; minSdk = 26; targetSdk = 35; versionCode = 2; versionName = "0.2" }
     buildFeatures { buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
     signingConfigs { create("release") {
