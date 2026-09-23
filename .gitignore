@@ -1,0 +1,15 @@
+# Android/Gradle
+.gradle/
+local.properties
+**/build/
+.kotlin/
+.idea/
+*.iml
+
+# Signing material — never commit private keys or passwords
+**/*.jks
+keystore.properties
+
+# OS/editor
+.DS_Store
+Thumbs.db
